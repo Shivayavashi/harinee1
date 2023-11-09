@@ -2,6 +2,7 @@ import numpy as np
 import pickle
 import pandas as pd
 import streamlit as st 
+import scikit-learn
 from PIL import Image
 
 pickle_in = open('prediction.pkl','rb')
