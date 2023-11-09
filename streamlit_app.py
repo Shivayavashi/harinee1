@@ -42,5 +42,7 @@ def main():
     if st.button("Predict"):
         result=predict_note_authentication(Shift,Item,Oper_num,eff,qlt_perc,Target_qty,Rej_qty,worked_min,bal_min)
     st.success('The output is {}'.format(result))
-    
-main()
+
+
+if _name=='main_':
+    main()
